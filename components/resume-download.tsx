@@ -135,9 +135,9 @@ export function ResumeDownload() {
         <div class="section-title">WORK EXPERIENCE</div>
         
         <div class="job">
-            <div class="job-title">Software Developer Intern</div>
+            <div class="job-title">Front End Developer </div>
             <div class="company">Tharonyx</div>
-            <div class="date">2025 (3 months)</div>
+            <div class="date">2025 - </div>
             <ul>
                 <li>Built full-stack applications using Next.js, React, Node.js, and MongoDB</li>
                 <li>Developed and integrated APIs, ensuring seamless data flow</li>
@@ -148,24 +148,25 @@ export function ResumeDownload() {
         </div>
 
         <div class="job">
-            <div class="job-title">Software Developer Intern</div>
+            <div class="job-title"> Customer Support Executive</div>
             <div class="company">TAKYON</div>
             <div class="date">2022-2023</div>
-            <ul>
-                <li>Utilized frameworks and libraries to build and deploy scalable applications</li>
-                <li>Participated in code reviews, ensuring high-quality code and knowledge sharing</li>
-                <li>Troubleshooted and debugged issues using tools like PyCharm and Git</li>
-            </ul>
-        </div>
-
-        <div class="job">
-            <div class="job-title">Customer Support Executive</div>
-            <div class="company">SHOP SHIASH</div>
-            <div class="date">2021 (5 months)</div>
+            
             <ul>
                 <li>Handled high-volume inbound customer emails and chats, resolving 95% of issues</li>
                 <li>Utilized strong problem-solving skills to troubleshoot complex customer issues</li>
                 <li>Reduced escalations by 30% through effective communication and technical expertise</li>
+            </ul>
+        </div>
+
+        <div class="job">
+            <div class="job-title">Software Developer Intern</div>
+            <div class="company">SHIASH</div>
+            <div class="date">2021 (5 months)</div>
+            <ul>
+                <li>Utilized frameworks and libraries to build and deploy scalable applications</li>
+                <li>Participated in code reviews, ensuring high-quality code and knowledge sharing</li>
+                <li>Troubleshooted and debugged issues using tools like PyCharm and Git</li>
             </ul>
         </div>
     </div>

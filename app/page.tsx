@@ -11,7 +11,6 @@ import { AnimatedBackground } from "@/components/animated-background"
 import { GeometricShapes } from "@/components/geometric-shapes"
 import { AboutCard } from "@/components/about-card"
 import { EnhancedSkillCard } from "@/components/enhanced-skill-card"
-import { AchievementMetrics } from "@/components/achievement-metrics"
 import { EnhancedButton } from "@/components/enhanced-button"
 import { TouchGestureHandler } from "@/components/touch-gesture-handler"
 import ScrollProgress from "@/components/scroll-progress"
@@ -23,7 +22,6 @@ import EducationTimeline from "@/components/education-timeline"
 const InteractiveContactForm = lazy(() => import("@/components/interactive-contact-form"))
 
 export default function Portfolio() {
-  const heroRef = useRef<HTMLDivElement>(null)
 
   useEffect(() => {
     document.documentElement.style.scrollBehavior = "smooth"
@@ -296,10 +294,6 @@ export default function Portfolio() {
                 </div>
               </div>
             </div>
-
-            {/* Achievement metrics section */}
-            <AchievementMetrics />
-
             {/* About cards grid */}
             <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-4 sm:gap-6">
               {aboutCards.map((card, index) => (
