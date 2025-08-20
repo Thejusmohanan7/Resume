@@ -379,7 +379,7 @@ export default function Portfolio() {
                     2022-2023
                   </Badge>
                 </div>
-                <p className="text-secondary font-medium mb-4">TAKYON</p>
+                <p className="text-secondary font-medium mb-4">SHIASH</p>
                 <ul className="text-muted-foreground space-y-2 text-sm sm:text-base">
                   <li>• Utilized frameworks and libraries to build and deploy scalable applications</li>
                   <li>• Participated in code reviews, ensuring high-quality code and knowledge sharing</li>
@@ -394,7 +394,7 @@ export default function Portfolio() {
                     2021 (5 months)
                   </Badge>
                 </div>
-                <p className="text-secondary font-medium mb-4">SHOP SHIASH</p>
+                <p className="text-secondary font-medium mb-4">TAKYON</p>
                 <ul className="text-muted-foreground space-y-2 text-sm sm:text-base">
                   <li>• Handled high-volume inbound customer emails and chats, resolving 95% of issues</li>
                   <li>• Utilized strong problem-solving skills to troubleshoot complex customer issues</li>
@@ -631,3 +631,4 @@ export default function Portfolio() {
     </TouchGestureHandler>
   )
 }
+
