@@ -252,12 +252,12 @@ export default function Portfolio() {
                 />
 
                 <div className="flex flex-wrap gap-2 sm:gap-3 pt-4">
-                  <Badge
+                  {/* <Badge
                     variant="secondary"
                     className="px-3 sm:px-4 py-1 sm:py-2 text-xs sm:text-sm bg-primary/10 text-primary border-primary/20"
                   >
                     3+ Years Experience
-                  </Badge>
+                  </Badge> */}
                   <Badge
                     variant="secondary"
                     className="px-3 sm:px-4 py-1 sm:py-2 text-xs sm:text-sm bg-secondary/10 text-secondary border-secondary/20"
@@ -357,9 +357,9 @@ export default function Portfolio() {
             <div className="space-y-6 sm:space-y-8">
               <Card className="p-6 sm:p-8 bg-card border-border hover:shadow-lg transition-shadow">
                 <div className="flex flex-col md:flex-row md:items-center md:justify-between mb-4">
-                  <h3 className="text-lg sm:text-xl font-semibold text-card-foreground">Software Developer Intern</h3>
+                  <h3 className="text-lg sm:text-xl font-semibold text-card-foreground">Front-End Developer </h3>
                   <Badge variant="outline" className="w-fit mt-2 md:mt-0">
-                    2025 (3 months)
+                    2025 - 
                   </Badge>
                 </div>
                 <p className="text-secondary font-medium mb-4">Tharonyx</p>
@@ -376,7 +376,7 @@ export default function Portfolio() {
                 <div className="flex flex-col md:flex-row md:items-center md:justify-between mb-4">
                   <h3 className="text-lg sm:text-xl font-semibold text-card-foreground">Software Developer Intern</h3>
                   <Badge variant="outline" className="w-fit mt-2 md:mt-0">
-                    2022-2023
+                    2021 (5 months)
                   </Badge>
                 </div>
                 <p className="text-secondary font-medium mb-4">SHIASH</p>
@@ -391,7 +391,7 @@ export default function Portfolio() {
                 <div className="flex flex-col md:flex-row md:items-center md:justify-between mb-4">
                   <h3 className="text-lg sm:text-xl font-semibold text-card-foreground">Customer Support Executive</h3>
                   <Badge variant="outline" className="w-fit mt-2 md:mt-0">
-                    2021 (5 months)
+                     2022-2023
                   </Badge>
                 </div>
                 <p className="text-secondary font-medium mb-4">TAKYON</p>
@@ -547,7 +547,7 @@ export default function Portfolio() {
         <div class="job">
             <h3>Software Developer Intern</h3>
             <p class="company">Tharonyx</p>
-            <p class="date">2025 (3 months)</p>
+            <p class="date">2025 - </p>
             <ul>
                 <li>Built full-stack applications using Next.js, React, Node.js, and MongoDB</li>
                 <li>Developed and integrated APIs, ensuring seamless data flow</li>
@@ -558,24 +558,25 @@ export default function Portfolio() {
         </div>
 
         <div class="job">
-            <h3>Software Developer Intern</h3>
+            <h3> Customer Support Executive</h3>
             <p class="company">TAKYON</p>
             <p class="date">2022-2023</p>
-            <ul>
-                <li>Utilized frameworks and libraries to build and deploy scalable applications</li>
-                <li>Participated in code reviews, ensuring high-quality code and knowledge sharing</li>
-                <li>Troubleshooted and debugged issues using tools like PyCharm and Git</li>
-            </ul>
-        </div>
-
-        <div class="job">
-            <h3>Customer Support Executive</h3>
-            <p class="company">SHOP SHIASH</p>
-            <p class="date">2021 (5 months)</p>
+            
             <ul>
                 <li>Handled high-volume inbound customer emails and chats, resolving 95% of issues</li>
                 <li>Utilized strong problem-solving skills to troubleshoot complex customer issues</li>
                 <li>Reduced escalations by 30% through effective communication and technical expertise</li>
+            </ul>
+        </div>
+
+        <div class="job">
+            <h3>Software Developer Intern</h3>
+            <p class="company">SHIASH</p>
+            <p class="date">2021 (5 months)</p>
+            <ul>
+                <li>Utilized frameworks and libraries to build and deploy scalable applications</li>
+                <li>Participated in code reviews, ensuring high-quality code and knowledge sharing</li>
+                <li>Troubleshooted and debugged issues using tools like PyCharm and Git</li>
             </ul>
         </div>
     </div>
