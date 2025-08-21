@@ -9,7 +9,7 @@ const navItems = [
   { id: "skills", label: "Skills" },
   { id: "experience", label: "Experience" },
   { id: "projects", label: "Projects" },
-  { id: "contact", label: "Contact" },
+  // { id: "contact", label: "Contact" },
 ]
 
 export function FloatingNav() {
